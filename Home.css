@@ -22,7 +22,6 @@ body {
 }
 
 
-
 .content {
     padding: 20px;
     background-color: #111821;
@@ -30,7 +29,7 @@ body {
     font-family: 'Times New Roman';
     font-style: italic;
     height: 150vh;
-    
+    margin-left: 350px;
 }
 
 .profile-name {
