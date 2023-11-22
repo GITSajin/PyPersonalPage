@@ -1,0 +1,156 @@
+.sidebar {
+    background-color: #1e2a3a;
+    position: fixed;
+    width: 320px;
+    height: 150vh;
+    padding: 20px;
+}
+
+body {
+    background-color: #111821;
+}
+
+.sidebar a {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+
+
+.content {
+    padding: 20px;
+    background-color: #111821;
+    color: White;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    height: 150vh;
+    
+}
+
+.profile-name {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profile-description {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+.nav-link:hover i, .nav-link:hover span {
+    color: #54b689;
+}
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    margin-right: 10px; 
+    font-size: 24px; 
+}
+
+.social-icon-blue i {
+    color: #54b689; 
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #111821
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #111821; 
+    border-radius: 5px; 
+}
+
+
+
+.sidebar {
+    overflow-y: auto;
+    overflow-x: hidden; 
+    max-height: 100vh; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1e2a3a;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+
+/* for this website Portfolio for center */
+
+.content { 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rounded-pill {
+    border: 2px solid #007bff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20%;
+    background-color: #54b689;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+}
+
+.rounded-pill:hover {
+    background-color: #ff7200;
+}
+
+
+.spacer {
+    height: 100px; /* Adjust the height as desired */
+}
+
+
+.pdf-link {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    margin: 5px 0; 
+    display: block; 
+}
+
+.pdf-link:hover {
+    background-color: #111821; 
+    color: #54b689; 
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+.centered-links a {
+     text-decoration: none;
+     color: inherit;
+     font-weight: bold;
+     font-size: 17px;
+}
+
+.centered-links a:hover {
+        color: #54b689;
+}
