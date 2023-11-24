@@ -197,3 +197,12 @@ footer {
             margin-bottom: 10px;
         }
     }
+
+
+
+
+@media (max-width: 767px) {
+        .horizontal-icons {
+            flex-direction: row; /* Arrange icons horizontally on smaller screens */
+        }
+    }
