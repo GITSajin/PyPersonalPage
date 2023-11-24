@@ -6,6 +6,14 @@
     padding: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%; /* Make the sidebar full width */
+        height: auto; /* Allow the height to adjust based on content */
+        position: static; /* Remove the fixed positioning for mobile screens */
+    }
+}
+
 body {
     background-color: #111821;
 }
@@ -59,6 +67,9 @@ body {
 .social-icons {
     display: flex;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 .social-icon {
