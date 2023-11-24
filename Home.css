@@ -202,7 +202,7 @@ footer {
 
 
 @media (max-width: 767px) {
-        .horizontal-icons {
-            flex-direction: row; /* Arrange icons horizontally on smaller screens */
+        .vertical-icons {
+            flex-direction: column; /* Stack icons vertically on smaller screens */
         }
     }
